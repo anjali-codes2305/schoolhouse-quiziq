@@ -1,0 +1,57 @@
+﻿
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.10 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : Browserslist: 
+browsers data 
+(caniuse-lite) is 18 
+months old. Please run:
+At line:1 char:1
++ & "C:\nodejs/node.exe" "C
+:\nodejs/node_modules/npm/b
+in/npm-cli.js" ru ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Bro  
+  wserslist: b...ld. Ple   
+ ase run::String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+  npx update-browserslist-d
+b@latest
+  Why you should do it 
+regularly: https://github.c
+om/browserslist/update-db#r
+eadme
+[32mΓ£ô[39m 2975 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                          [39m[1m[2m    0.93 kB[22m[1m[22m[2m Γöé gzip:   0.51 kB[22m
+[2mdist/[22m[35massets/index-CQw6lk8g.css           [39m[1m[2m   88.71 kB[22m[1m[22m[2m Γöé gzip:  14.57 kB[22m
+[2mdist/[22m[36massets/browser-CfUCJmkc.js          [39m[1m[2m    0.30 kB[22m[1m[22m[2m Γöé gzip:   0.25 kB[22m
+[2mdist/[22m[36massets/purify.es-BFmuJLeH.js        [39m[1m[2m   21.93 kB[22m[1m[22m[2m Γöé gzip:   8.62 kB[22m
+[2mdist/[22m[36massets/index.es-BeFFpcz8.js         [39m[1m[2m  150.53 kB[22m[1m[22m[2m Γöé gzip:  51.48 kB[22m
+[2mdist/[22m[36massets/html2canvas.esm-CBrSDip1.js  [39m[1m[2m  201.42 kB[22m[1m[22m[2m Γöé gzip:  48.03 kB[22m
+[2mdist/[22m[36massets/index-2gCA_Mi6.js            [39m[1m[33m1,368.83 kB[39m[22m[2m Γöé gzip: 402.99 kB[22m
+[33m
+(!) Some chunks are larger 
+than 500 kB after 
+minification. Consider:
+- Using dynamic import() 
+to code-split the 
+application
+- Use build.rollupOptions.o
+utput.manualChunks to 
+improve chunking: https://r
+ollupjs.org/configuration-o
+ptions/#output-manualchunks
+- Adjust chunk size limit 
+for this warning via build.
+chunkSizeWarningLimit.[39m
+[32mΓ£ô built in 13.41s[39m

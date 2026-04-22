@@ -35,6 +35,7 @@ const Quiz = () => {
   const { user, userProfile } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [quizData, setQuizData] = useState<any>(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);

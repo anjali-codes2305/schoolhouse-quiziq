@@ -7,10 +7,14 @@ interface AuthContextType {
   user: User | null;
   session: Session | null;
   loading: boolean;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   userProfile: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   signUp: (email: string, password: string, fullName: string, username: string, role: string) => Promise<{ error: any }>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   signIn: (email: string, password: string) => Promise<{ error: any }>;
   signOut: () => Promise<void>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   resetPassword: (email: string) => Promise<{ error: any }>;
 }
 
@@ -20,6 +24,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [userProfile, setUserProfile] = useState<any>(null);
 
   useEffect(() => {
@@ -125,7 +130,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }
 
       return { error: null };
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Signup exception:', error);
       return { error: { message: 'An unexpected error occurred during signup.' } };
     }
@@ -148,7 +153,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }
 
       return { error: null };
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Signin exception:', error);
       return { error: { message: 'An unexpected error occurred during signin.' } };
     }

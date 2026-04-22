@@ -1,0 +1,27 @@
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\components\AuthContext.tsx
+  Line 10: Unexpected any. Specify a different type.
+  Line 11: Unexpected any. Specify a different type.
+  Line 12: Unexpected any. Specify a different type.
+  Line 14: Unexpected any. Specify a different type.
+  Line 23: Unexpected any. Specify a different type.
+  Line 128: Unexpected any. Specify a different type.
+  Line 151: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\components\ui\command.tsx
+  Line 24: An interface declaring no members is equivalent to its supertype.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\components\ui\textarea.tsx
+  Line 5: An interface declaring no members is equivalent to its supertype.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\pages\AdminDashboard.tsx
+  Line 26: Unexpected any. Specify a different type.
+  Line 108: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\pages\CreateQuiz.tsx
+  Line 361: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\pages\Quiz.tsx
+  Line 38: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\pages\Results.tsx
+  Line 14: Unexpected any. Specify a different type.
+  Line 211: Unexpected any. Specify a different type.
+  Line 423: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\src\pages\StudentAccess.tsx
+  Line 109: Unexpected any. Specify a different type.
+File: C:\Users\suresh agarwal\Desktop\Coding sites\Projects\schoolhouse-quiz-hub-main\schoolhouse-quiz-hub-main\tailwind.config.ts
+  Line 136: A `require()` style import is forbidden.

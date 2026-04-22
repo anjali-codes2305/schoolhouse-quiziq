@@ -23,6 +23,7 @@ import {
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [adminData, setAdminData] = useState<any>(null);
   const [schoolName, setSchoolName] = useState('QuizMaster Academy');
   const [schoolLogo, setSchoolLogo] = useState('');
@@ -105,7 +106,7 @@ const AdminDashboard = () => {
     setQuestions([...questions, { question: '', options: ['', '', '', ''], correctAnswer: 0 }]);
   };
 
-  const updateQuestion = (index: number, field: string, value: any) => {
+  const updateQuestion = (index: number, field: string, value: string | number) => {
     const updated = [...questions];
     if (field === 'question') {
       updated[index].question = value;

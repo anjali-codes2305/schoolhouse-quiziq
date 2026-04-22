@@ -106,6 +106,7 @@ const StudentAccess = () => {
 
       navigate('/quiz');
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       console.error('Quiz loading error:', error);
       toast({

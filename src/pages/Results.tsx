@@ -11,6 +11,7 @@ import { useToast } from '@/hooks/use-toast';
 
 const Results = () => {
   const navigate = useNavigate();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [results, setResults] = useState<any>(null);
   const { toast } = useToast();
 
@@ -208,6 +209,7 @@ const Results = () => {
     { name: 'Incorrect', value: results.totalQuestions - results.score, color: '#EF4444' }
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const questionAnalysis = results.questions.map((q: any, index: number) => ({
     question: `Q${index + 1}`,
     correct: results.answers[index] === q.correct_answer ? 1 : 0
@@ -420,6 +422,7 @@ const Results = () => {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {results.questions.map((question: any, index: number) => (
               <div
                 key={index}

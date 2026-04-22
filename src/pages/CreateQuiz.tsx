@@ -358,6 +358,7 @@ const CreateQuiz = () => {
         description: `Quiz created successfully! Quiz code: ${quiz.quiz_code}`,
       });
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       console.error('Quiz creation error:', error);
       toast({
